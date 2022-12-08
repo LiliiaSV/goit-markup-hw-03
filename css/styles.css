@@ -61,7 +61,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .page-header{
     background: var(--primary-white-color);
@@ -86,12 +85,12 @@ img {
     font-weight: 700;
     text-decoration: none;
 }
-.site-nav .link:visited{
-    color: var(--main-color);
-}
 .site-nav .link:hover,
 .site-nav .link:focus{
     color: var(--text-color)
+}
+.site-nav .link:active{
+    color: var(--main-color);
 }
 /* Контакти в Хедері */
 .contacts{
@@ -120,6 +119,9 @@ img {
 }
 .hero-title{
     margin-bottom: 48;
+    margin-right: auto;
+    margin-left: auto;
+    width: 492px;
 
     color: var(--primary-white-color);
     font-weight: 700;
@@ -167,6 +169,7 @@ img {
 }
 .features .feature{
     margin-bottom: 8px;
+    width: 264px;
 
     font-size: 20px;
     line-height: 1.2;    
@@ -336,9 +339,9 @@ footer{
 .container{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-    width: 1152px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
     outline: 2px solid transparent;
 }
 
